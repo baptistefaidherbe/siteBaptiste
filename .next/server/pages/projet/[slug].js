@@ -107,7 +107,7 @@ var Banner_module_default = /*#__PURE__*/__webpack_require__.n(Banner_module);
 function Banner(data) {
     return(/*#__PURE__*/ jsx_runtime_.jsx("section", {
         style: {
-            backgroundImage: `url('${"https://explorastro.baptistefaidherbe.fr"}/img/${data.data.img}')`
+            backgroundImage: `url('${"https://baptistefaidherbe.fr"}/img/${data.data.img}')`
         },
         className: (Banner_module_default()).banner,
         children: /*#__PURE__*/ jsx_runtime_.jsx("h1", {

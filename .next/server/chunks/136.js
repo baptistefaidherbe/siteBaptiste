@@ -85,8 +85,8 @@ function Projet(data) {
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                                                href: `${"https://explorastro.baptistefaidherbe.fr"}/projet/${element.title}`,
-                                                as: `${"https://explorastro.baptistefaidherbe.fr"}/projet/${element.title}`,
+                                                href: `${"https://baptistefaidherbe.fr"}/projet/${element.title}`,
+                                                as: `${"https://baptistefaidherbe.fr"}/projet/${element.title}`,
                                                 passHref: true,
                                                 children: "En savoir plus"
                                             })
