@@ -254,9 +254,13 @@ function Home() {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx(fi_.FiFacebook, {
                                             })
                                         }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                            className: (Home_module_default()).home_banner_container_socialNetwork_gh,
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx(fi_.FiGithub, {
+                                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            target: "_blank",
+                                            href: "https://github.com/baptistefaidherbe/",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                className: (Home_module_default()).home_banner_container_socialNetwork_gh,
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx(fi_.FiGithub, {
+                                                })
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {

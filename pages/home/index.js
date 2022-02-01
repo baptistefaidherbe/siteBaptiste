@@ -90,9 +90,11 @@ export default function Home() {
               <li className={styles.home_banner_container_socialNetwork_fb}>
                 <FiFacebook />
               </li>
-              <li className={styles.home_banner_container_socialNetwork_gh}>
-                <FiGithub />
-              </li>
+              <a target="_blank" href='https://github.com/baptistefaidherbe/'>
+                <li className={styles.home_banner_container_socialNetwork_gh}>
+                  <FiGithub />
+                </li>
+              </a>
               <li className={styles.home_banner_container_socialNetwork_lk}>
                 <FiLinkedin />
               </li>

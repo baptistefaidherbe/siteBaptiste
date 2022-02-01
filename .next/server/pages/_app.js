@@ -134,8 +134,8 @@ function Header() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: (Header_module_default()).Header_nav_menu_li,
                                     children: router.pathname === '/projet/[slug]' ? /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: `${"https://explorastro.baptistefaidherbe.fr"}/#home`,
-                                        as: `${"https://explorastro.baptistefaidherbe.fr"}/#home`,
+                                        href: `${"https://baptistefaidherbe.fr"}/#home`,
+                                        as: `${"https://baptistefaidherbe.fr"}/#home`,
                                         passHref: true,
                                         children: "Accueil"
                                     }) : /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_namespaceObject.Link, {
@@ -150,8 +150,8 @@ function Header() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: (Header_module_default()).Header_nav_menu_li,
                                     children: router.pathname === '/projet/[slug]' ? /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: `${"https://explorastro.baptistefaidherbe.fr"}/#about`,
-                                        as: `${"https://explorastro.baptistefaidherbe.fr"}/#about`,
+                                        href: `${"https://baptistefaidherbe.fr"}/#about`,
+                                        as: `${"https://baptistefaidherbe.fr"}/#about`,
                                         passHref: true,
                                         children: "Qui suis-je ?"
                                     }) : /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_namespaceObject.Link, {
@@ -166,8 +166,8 @@ function Header() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: (Header_module_default()).Header_nav_menu_li,
                                     children: router.pathname === '/projet/[slug]' ? /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: `${"https://explorastro.baptistefaidherbe.fr"}/#skills`,
-                                        as: `${"https://explorastro.baptistefaidherbe.fr"}/#skills`,
+                                        href: `${"https://baptistefaidherbe.fr"}/#skills`,
+                                        as: `${"https://baptistefaidherbe.fr"}/#skills`,
                                         passHref: true,
                                         children: "Mes comp\xe9tences"
                                     }) : /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_namespaceObject.Link, {
@@ -182,8 +182,8 @@ function Header() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: (Header_module_default()).Header_nav_menu_li,
                                     children: router.pathname === '/projet/[slug]' ? /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: `${"https://explorastro.baptistefaidherbe.fr"}/#parcours`,
-                                        as: `${"https://explorastro.baptistefaidherbe.fr"}/#parcours`,
+                                        href: `${"https://baptistefaidherbe.fr"}/#parcours`,
+                                        as: `${"https://baptistefaidherbe.fr"}/#parcours`,
                                         passHref: true,
                                         children: "Mon parcours"
                                     }) : /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_namespaceObject.Link, {
@@ -198,8 +198,8 @@ function Header() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: (Header_module_default()).Header_nav_menu_li,
                                     children: router.pathname === '/projet/[slug]' ? /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: `${"https://explorastro.baptistefaidherbe.fr"}/#project`,
-                                        as: `${"https://explorastro.baptistefaidherbe.fr"}/#project`,
+                                        href: `${"https://baptistefaidherbe.fr"}/#project`,
+                                        as: `${"https://baptistefaidherbe.fr"}/#project`,
                                         passHref: true,
                                         children: "Mes projets"
                                     }) : /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_namespaceObject.Link, {
@@ -214,8 +214,8 @@ function Header() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                     className: (Header_module_default()).Header_nav_menu_li,
                                     children: router.pathname === '/projet/[slug]' ? /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                        href: `${"https://explorastro.baptistefaidherbe.fr"}/#project`,
-                                        as: `${"https://explorastro.baptistefaidherbe.fr"}/#project`,
+                                        href: `${"https://baptistefaidherbe.fr"}/#project`,
+                                        as: `${"https://baptistefaidherbe.fr"}/#project`,
                                         passHref: true,
                                         children: "Contact"
                                     }) : /*#__PURE__*/ jsx_runtime_.jsx(external_react_scroll_namespaceObject.Link, {
@@ -286,31 +286,31 @@ function Header() {
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                href: `${"https://explorastro.baptistefaidherbe.fr"}/#about`,
+                                                href: `${"https://baptistefaidherbe.fr"}/#about`,
                                                 children: "Qui suis-je"
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                href: `${"https://explorastro.baptistefaidherbe.fr"}/#skills`,
+                                                href: `${"https://baptistefaidherbe.fr"}/#skills`,
                                                 children: "Mes comp\xe9tences"
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                href: `${"https://explorastro.baptistefaidherbe.fr"}/#parcours`,
+                                                href: `${"https://baptistefaidherbe.fr"}/#parcours`,
                                                 children: "Mon parcours"
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                href: `${"https://explorastro.baptistefaidherbe.fr"}/#project`,
+                                                href: `${"https://baptistefaidherbe.fr"}/#project`,
                                                 children: "Mes projets"
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                             children: /*#__PURE__*/ jsx_runtime_.jsx(next_link["default"], {
-                                                href: `${"https://explorastro.baptistefaidherbe.fr"}/#contact`,
+                                                href: `${"https://baptistefaidherbe.fr"}/#contact`,
                                                 children: "Contact"
                                             })
                                         })
