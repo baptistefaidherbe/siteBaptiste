@@ -1,0 +1,25 @@
+.moonContainer {
+  position: absolute;
+  top: -8em;
+  left: 1em;
+  z-index: 1;
+  width: 590px;
+
+  &_moon {
+    animation: animate 3s infinite alternate linear;
+    transform-origin: 0 0;
+    width: 590px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    -moz-transform: rotateZ(10deg);
+    transform: rotateZ(10deg);
+  }
+
+  100% {
+    -moz-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+  }
+}

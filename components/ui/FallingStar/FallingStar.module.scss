@@ -1,0 +1,40 @@
+.star {
+  $shooting-time: 3000ms;
+  position: absolute;
+  left: random()*20px;
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(
+    -45deg,
+    rgba(95, 145, 255, 1),
+    rgba(0, 0, 255, 0)
+  );
+  border-radius: 999px;
+  filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
+  animation: tail $shooting-time ease-in-out infinite,
+    shooting $shooting-time ease-in-out infinite;
+
+  @keyframes tail {
+    0% {
+      width: 0;
+    }
+
+    30% {
+      width: 100px;
+    }
+
+    100% {
+      width: 0;
+    }
+  }
+
+  @keyframes shooting {
+    0% {
+      transform: translate(0);
+    }
+
+    100% {
+      transform: translate(900px);
+    }
+  }
+}

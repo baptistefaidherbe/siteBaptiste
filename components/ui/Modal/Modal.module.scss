@@ -1,0 +1,43 @@
+.modal {
+  background: rgba(3, 3, 3, 0.61);
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 999999;
+  left: 0;
+  right: 0;
+
+  &_cancel {
+    width: 98%;
+    top: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 99999;
+
+    &_icon {
+      font-size: 2em;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  &_carousel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+  
+    &_container {
+      width: 100%;
+      transform: translate3d(-7px, 0px, 0px);
+      &_img {
+        margin-left: 1em;
+        cursor: pointer;
+      }
+    }
+  }
+}

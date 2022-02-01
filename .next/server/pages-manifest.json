@@ -1,0 +1,19 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/api/About": "pages/api/About.js",
+  "/api/Contact": "pages/api/Contact.js",
+  "/api/Parcours": "pages/api/Parcours.js",
+  "/api/Projet": "pages/api/Projet.js",
+  "/api/database": "pages/api/database.js",
+  "/contact": "pages/contact.html",
+  "/home": "pages/home.html",
+  "/": "pages/index.js",
+  "/parcours": "pages/parcours.html",
+  "/projet/[slug]": "pages/projet/[slug].js",
+  "/projet": "pages/projet.html",
+  "/skill": "pages/skill.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}

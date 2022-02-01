@@ -1,0 +1,115 @@
+.Header {
+  &_nav2 {
+    background-color: #090726;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 5px 5px 29px -8px #6d6d6d;
+
+    &_icon {
+      font-size: 2em;
+      position: absolute;
+      left: 15px;
+      top: 15px;
+      color: white;
+    }
+  }
+
+  &_nav {
+    display: flex;
+    background-color: #090726;
+    box-shadow: 5px 5px 29px -8px #6d6d6d;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: 0.4s;
+    color: white;
+    justify-content: center;
+
+    &_menu {
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+      margin-top: 3em;
+
+      li {
+        padding-left: 25px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+
+        &:after {
+          background-image: linear-gradient(90deg, #7429ff, #0a64ec);
+          transition: width 0.3s;
+          content: '';
+          display: block;
+          height: 0.105rem;
+          margin: 0.625rem auto 0;
+          width: 0;
+        }
+
+        &:hover:after {
+          width: 100%;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &_responsiveActif {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #090726, #13103f) !important;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+
+    &_icon {
+      color: white;
+      font-size: 2em;
+      position: absolute;
+      left: 15px;
+      top: 15px;
+    }
+
+    &_nav {
+      display: flex;
+      background-color: transparent;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+
+      &_menu {
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+
+        li {
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          color: white;
+          line-height: 70px;
+          position: relative;
+          font-size: 1.7em;
+          font-family: 'Advent Pro', sans-serif;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

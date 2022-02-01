@@ -1,0 +1,103 @@
+@import './wave.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #121d52;
+  font-size: 1.1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+  flex-direction: column;
+}
+
+.titleBanner {
+  color: white;
+  font-size: 3em;
+}
+
+.mainTitle {
+  margin-top: 2em;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+
+  &:after {
+    background-image: linear-gradient(90deg, #7429ff, #0a64ec);
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    display: block;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mainTitle {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mainTitle {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
+.icons {
+  &:hover {
+    background: url('/img/icons/1325-code-fork-outline.gif');
+  }
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(19, 3, 32);
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #2d173a;
+  }
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
