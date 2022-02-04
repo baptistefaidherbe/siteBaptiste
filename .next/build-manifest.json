@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/6d-SIKWILc0o5wGrZsngg/_buildManifest.js",
-    "static/6d-SIKWILc0o5wGrZsngg/_ssgManifest.js",
-    "static/6d-SIKWILc0o5wGrZsngg/_middlewareManifest.js"
+    "static/ygKwUMCf7wA7dZhc4hn4m/_buildManifest.js",
+    "static/ygKwUMCf7wA7dZhc4hn4m/_ssgManifest.js",
+    "static/ygKwUMCf7wA7dZhc4hn4m/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -19,7 +19,7 @@
       "static/css/69f81e06845cd7ae.css",
       "static/chunks/173-bc6e8cc05b3447f4.js",
       "static/css/34ce92b8bba534b4.css",
-      "static/chunks/pages/index-017a54aee9519130.js"
+      "static/chunks/pages/index-c28b6d9e0a9f6ad3.js"
     ],
     "/_app": [
       "static/chunks/webpack-1a238d6d024b1474.js",
@@ -90,7 +90,7 @@
       "static/chunks/main-eab312c0bf2a7270.js",
       "static/chunks/461-cc2d4f5044997bb6.js",
       "static/css/55c1aff5ce2a9560.css",
-      "static/chunks/pages/skill-f0147c79f45c03a8.js"
+      "static/chunks/pages/skill-d9dc296bcc9e8b55.js"
     ]
   },
   "ampFirstPages": []

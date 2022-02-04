@@ -89,7 +89,7 @@ export default function Skill(data) {
                 <ul>
                   <li>Windows server 2008r2/2012/2016</li>
                   <li>Windows 7/8/10</li>
-                  <li>Debian/Unbuntu</li>
+                  <li>Debian/Ubuntu</li>
                   <li>VmWare ESXI6</li>
                   <li>Hyper-V</li>
                   <li>Active Directory</li>
@@ -105,7 +105,7 @@ export default function Skill(data) {
                 </ul>
                 <span>Réseaux</span>
                 <ul>
-                  <li>switch broadcom/Cisco/HPE</li>
+                  <li>Conf switch broadcom/Cisco/HPE</li>
                   <li>Routage RIP, OSPF, VLAN</li>
                   <li>Wifi, controleur wifi</li>
                   <li>Firewall Fortinet, Orange unified defense, UFW...</li>
@@ -124,7 +124,7 @@ export default function Skill(data) {
               <div className={styles.skill_container_skills_article_content}>
                 <ul>
                   <li>Gestion de projets (Agile)</li>
-                  <li>Merise, MCS/MLD</li>
+                  <li>Merise, MCD/MLD</li>
                   <li>Git/GitHub</li>
                 </ul>
               </div>

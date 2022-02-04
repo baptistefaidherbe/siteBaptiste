@@ -224,7 +224,7 @@ function Skill(data) {
                                                             children: "Windows 7/8/10"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                            children: "Debian/Unbuntu"
+                                                            children: "Debian/Ubuntu"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                             children: "VmWare ESXI6"
@@ -270,7 +270,7 @@ function Skill(data) {
                                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
                                                     children: [
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                            children: "switch broadcom/Cisco/HPE"
+                                                            children: "Conf switch broadcom/Cisco/HPE"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                             children: "Routage RIP, OSPF, VLAN"
@@ -310,7 +310,7 @@ function Skill(data) {
                                                         children: "Gestion de projets (Agile)"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                        children: "Merise, MCS/MLD"
+                                                        children: "Merise, MCD/MLD"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                         children: "Git/GitHub"
