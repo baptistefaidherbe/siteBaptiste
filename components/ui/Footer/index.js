@@ -10,7 +10,7 @@ export default function Header() {
     <footer className={classes.footer}>
           <Image
               src='/img/logo.png'
-              alt='Moi'
+              alt='logo'
               width={180}
               height={50}
               layout='fixed'

@@ -21,7 +21,7 @@ export default function Projet(data) {
                 <div className={styles.projet_container_card_article_image}>
                   <Image
                     src={`/img/${element.img}`}
-                    alt='Moi'
+                    alt={element.img}
                     width={100}
                     height={50}
                     layout='responsive'

@@ -56,7 +56,7 @@ export default function Home() {
           <div className={styles.home_banner_galaxy1}>
             <Image
               src='/img/galaxy.png'
-              alt='blob'
+              alt='galaxy'
               width={500}
               height={500}
               layout='responsive'
@@ -72,7 +72,7 @@ export default function Home() {
           <div className={styles.home_banner_galaxy2}>
             <Image
               src='/img/galaxy.png'
-              alt='blob'
+              alt='galaxy'
               width={500}
               height={500}
               layout='responsive'
@@ -111,7 +111,7 @@ export default function Home() {
         <div className={styles.home_banner_profil}>
           <Image
             src='/img/bapt.png'
-            alt='Moi'
+            alt='photo profil'
             width={100}
             height={90}
             layout='responsive'

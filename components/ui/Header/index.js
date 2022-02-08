@@ -50,7 +50,7 @@ export default function Header() {
           <div className={classes.Header_nav_image}>
             <Image
               src='/img/logo.png'
-              alt='Moi'
+              alt='logo'
               width={180}
               height={50}
               layout='fixed'
@@ -193,7 +193,7 @@ export default function Header() {
           <div className={classes.Header_nav2_logo}>
             <Image
               src='/img/logo.png'
-              alt='Moi'
+              alt='logo'
               width={180}
               height={50}
               layout='fixed'
@@ -210,7 +210,7 @@ export default function Header() {
             <div className={classes.Header_responsiveActif_logo}>
               <Image
                 src='/img/logo.png'
-                alt='Moi'
+                alt='logo'
                 width={180}
                 height={50}
                 layout='fixed'

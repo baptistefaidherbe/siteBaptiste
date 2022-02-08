@@ -10,7 +10,7 @@ export default function Skill(data) {
       <div className={styles.skill_separator}>
         <Image
           src={`/img/tilt.svg`}
-          alt='Moi'
+          alt={element.img}
           width={100}
           height={10}
           layout='responsive'

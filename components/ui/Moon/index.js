@@ -6,7 +6,7 @@ export default function moon() {
     <div className={styles.moonContainer}>
       <Image
         src='/img/star.png'
-        alt='blob'
+        alt='star'
         width={700}
         height={900}
         layout='fixed'
