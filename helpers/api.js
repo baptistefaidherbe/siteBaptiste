@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://explorastro.baptistefaidherbe.fr',
+  baseURL: 'https://www.baptistefaidherbe.fr',
   timeout: 20000,
 });
 

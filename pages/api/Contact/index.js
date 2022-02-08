@@ -12,8 +12,6 @@ export default async function handler(req, res) {
     },
   });
 
-
-
   const text = `
 
     Prenom: ${firstName}\r\n
@@ -22,7 +20,6 @@ export default async function handler(req, res) {
     Telephone: ${phone}\r\n
     Message : ${message}\r\n
   `;
-
 
   const data = {
     to: 'bapt78@gmail.com',

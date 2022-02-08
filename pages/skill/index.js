@@ -41,7 +41,7 @@ export default function Skill(data) {
                 <ul>
                   <li>HTML5</li>
                   <li>CSS/SASS</li>
-                  <li>JS</li>
+                  <li>JS ES6</li>
                   <li>PHP (niveau débutant)</li>
                 </ul>
                 <span>FrameWork/Librairie</span>
@@ -66,9 +66,10 @@ export default function Skill(data) {
                 <ul>
                   <li>NodeJs</li>
                   <li>Express</li>
-                  <li>SQL</li>
+                  <li>API REST</li>
                   <li>socket.io</li>
                   <li>PostgreSQL</li>
+                  <li>SQL</li>
                   <li>MYSQL</li>
                   <li>MongoDB / Mongoose</li>
                   <li>Sequelize</li>
@@ -126,6 +127,9 @@ export default function Skill(data) {
                   <li>Gestion de projets (Agile)</li>
                   <li>Merise, MCD/MLD</li>
                   <li>Git/GitHub</li>
+                  <li>npm/yarn</li>
+                  <li>Leaflet</li>
+                  <li>Phaser</li>
                 </ul>
               </div>
             </article>

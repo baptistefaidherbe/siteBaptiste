@@ -78,6 +78,8 @@ var Home_module_default = /*#__PURE__*/__webpack_require__.n(Home_module);
 var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: external "react-icons/fi"
 var fi_ = __webpack_require__(2750);
+// EXTERNAL MODULE: external "react-icons/fa"
+var fa_ = __webpack_require__(6290);
 // EXTERNAL MODULE: external "react-scroll-parallax"
 var external_react_scroll_parallax_ = __webpack_require__(7446);
 // EXTERNAL MODULE: ./components/ui/FallingStar/FallingStar.module.scss
@@ -141,6 +143,7 @@ function moon() {
 var external_react_responsive_ = __webpack_require__(6666);
 var external_react_responsive_default = /*#__PURE__*/__webpack_require__.n(external_react_responsive_);
 ;// CONCATENATED MODULE: ./pages/home/index.js
+
 
 
 
@@ -263,9 +266,13 @@ function Home() {
                                                 })
                                             })
                                         }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                            className: (Home_module_default()).home_banner_container_socialNetwork_lk,
-                                            children: /*#__PURE__*/ jsx_runtime_.jsx(fi_.FiLinkedin, {
+                                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            target: "_blank",
+                                            href: "https://www.linkedin.com/in/baptiste-faidherbe-98617b231/",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                className: (Home_module_default()).home_banner_container_socialNetwork_lk,
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx(fi_.FiLinkedin, {
+                                                })
                                             })
                                         })
                                     ]

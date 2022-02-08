@@ -3,7 +3,7 @@ module.exports = {
 
   env: {
     MONGO_URI:
-      "mongodb://login:pwd!@localhost:27017/portfolio",
+      "mongodb://login:pwd!@localhost:27017/bddname",
     BASE_URL: process.env.BASE_URL,
   },
 };

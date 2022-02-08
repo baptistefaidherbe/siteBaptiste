@@ -13,8 +13,6 @@ export default function Header() {
   const [isResponsive, setIsResponsive] = useState(false);
   const router = useRouter();
 
-  console.log(router.pathname);
-
   const changeNavBar = () => {
     if (window.scrollY >= 80) {
       setNavBar(true);

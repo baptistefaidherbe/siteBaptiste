@@ -1,7 +1,7 @@
 (() => {
 var exports = {};
 exports.id = 888;
-exports.ids = [888,229];
+exports.ids = [888];
 exports.modules = {
 
 /***/ 2898:
@@ -85,7 +85,6 @@ function Header() {
     const { 0: navBar , 1: setNavBar  } = (0,external_react_.useState)(false);
     const { 0: isResponsive , 1: setIsResponsive  } = (0,external_react_.useState)(false);
     const router = (0,router_namespaceObject.useRouter)();
-    console.log(router.pathname);
     const changeNavBar = ()=>{
         if (window.scrollY >= 80) {
             setNavBar(true);

@@ -116,7 +116,7 @@ function Skill(data) {
                                                             children: "CSS/SASS"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                            children: "JS"
+                                                            children: "JS ES6"
                                                         }),
                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                             children: "PHP (niveau d\xe9butant)"
@@ -172,13 +172,16 @@ function Skill(data) {
                                                         children: "Express"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                        children: "SQL"
+                                                        children: "API REST"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                         children: "socket.io"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                         children: "PostgreSQL"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "SQL"
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                         children: "MYSQL"
@@ -314,6 +317,15 @@ function Skill(data) {
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                         children: "Git/GitHub"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "npm/yarn"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "Leaflet"
+                                                    }),
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                        children: "Phaser"
                                                     })
                                                 ]
                                             })

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './Home.module.scss';
 import { useEffect, useRef } from 'react';
 import { FiFacebook, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FaStrava } from 'react-icons/fa';
 import { Parallax } from 'react-scroll-parallax';
 import FallingStar from '../../components/ui/FallingStar';
 import Moon from '../../components/ui/Moon';
@@ -90,14 +91,19 @@ export default function Home() {
               <li className={styles.home_banner_container_socialNetwork_fb}>
                 <FiFacebook />
               </li>
-              <a target="_blank" href='https://github.com/baptistefaidherbe/'>
+              <a target='_blank' href='https://github.com/baptistefaidherbe/'>
                 <li className={styles.home_banner_container_socialNetwork_gh}>
                   <FiGithub />
                 </li>
               </a>
-              <li className={styles.home_banner_container_socialNetwork_lk}>
-                <FiLinkedin />
-              </li>
+              <a
+                target='_blank'
+                href='https://www.linkedin.com/in/baptiste-faidherbe-98617b231/'
+              >
+                <li className={styles.home_banner_container_socialNetwork_lk}>
+                  <FiLinkedin />
+                </li>
+              </a>
             </ul>
             <span>Suivez moi sur les réseaux sociaux</span>
           </div>

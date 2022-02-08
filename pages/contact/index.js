@@ -32,6 +32,7 @@ export default function Contact() {
       message,
     };
 
+
     try {
       await api.post(`/api/Contact/`, data);
     } catch (error) {

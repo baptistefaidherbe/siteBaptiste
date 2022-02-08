@@ -256,6 +256,13 @@ module.exports = require("react-awesome-reveal");
 
 /***/ }),
 
+/***/ 6290:
+/***/ ((module) => {
+
+module.exports = require("react-icons/fa");
+
+/***/ }),
+
 /***/ 2750:
 /***/ ((module) => {
 
